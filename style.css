@@ -1,0 +1,234 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+/* Shotcut Csss */
+.text_center {
+    text-align: center;
+}
+.display {
+    display: inline-block;
+}
+.font {
+    font-family: "Open Sans", sans-serif;
+}
+.clear_fix {
+    clear: both;
+}
+
+/* Header Section */
+.header_section {
+    height: 80px;
+    background-color: #22c3a3;
+}
+.header_logo {
+    width: 40%;
+    margin: 12px 10px;
+    /* padding: 30px 0px; */
+    float: left;
+}
+.header_logo h1 a {
+    color: #ffffff;
+    text-decoration: none;
+    display: inline-block;
+    font-weight: lighter;
+    margin: 10px 40px;
+}
+.header_menu {
+    width: 60%;
+    float: right;
+}
+.header_menu ul {
+    float: right;
+    margin: -51px 55px;
+}
+.header_menu ul li {
+    display: inline-block;
+}
+.header_menu ul li a {
+    color: #cef1eb;
+    text-decoration: none;
+    padding: 0px 10px;
+    display: inline-block;
+    font-size: 15px;
+    font-weight: 200;
+}
+.header_menu ul li a:hover {
+}
+
+/* Banner Section */
+.banner_section {
+    height: 667px;
+}
+.banner_bg {
+    height: 100%;
+    background: url(https://www.linkpicture.com/q/header-bg01.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 0px -33px;
+    /* padding: 140px; */
+}
+.banner_content {
+    padding-top: 270px;
+}
+.banner_section h1 {
+    color: #fff;
+    font-size: 55px;
+    margin-bottom: 15px;
+}
+.banner_section span {
+    color: #cef1eb;
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 50px;
+
+    display: inline-block;
+}
+.banner_button a {
+    color: #edfbf8;
+    text-decoration: none;
+    font-size: 17px;
+    padding: 14px 27px;
+    display: inline-block;
+    border: 2px solid #edfbf8;
+    border-radius: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Service Section */
+.service_section {
+    height: 640px;
+    border-bottom: 2px solid #0dbf9b;
+}
+.service_section h1 {
+    color: #555555;
+    padding: 90px 0px 25px 0px;
+}
+.service_section p {
+    color: #555555;
+    font-size: 15px;
+    font-weight: ;
+}
+.service_item {
+    margin-top: 130px;
+}
+
+.box_size {
+    width: 215px;
+    height: 220px;
+    margin: 0px 50px;
+    display: inline-block;
+}
+.service_icon i {
+    color: #0dbf9b;
+    font-size: 40px;
+    margin-bottom: 25px;
+}
+.item_header h2 {
+    color: #666666;
+    margin-bottom: 10px;
+    font-size: 20px;
+}
+.item_p p {
+    color: #666666;
+    font-size: 15px;
+    font-weight: ;
+}
+
+/* About Section */
+.about_section {
+    height: 660px;
+}
+.about_section h1 {
+    color: #555555;
+    padding: 70px 0px 25px 0px;
+}
+.about_section .p {
+    color: #777777;
+    font-size: 15px;
+    margin-bottom: 50px;
+}
+.about_content {
+    width: 1264px;
+    margin: auto;
+}
+.about_content .img {
+    width: 47%;
+    float: left;
+    margin-bottom: 10px;
+}
+.img img {
+    width: 590px;
+    height: 390px;
+}
+.ab_info {
+    width: 49%;
+    float: right;
+    margin-top: 10px;
+}
+.h_m {
+    margin-bottom: 20px;
+}
+.ab_info h2 {
+    color: #666666;
+    font-weight: 400;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+.ab_info p {
+    color: #777777;
+    font-size: 14px;
+    line-height: 21px;
+}
+
+/* Contact Section */
+.contact_section {
+    background: #f6f6f6;
+    height: 370px;
+}
+.contact_section h1 {
+    color: #555555;
+    padding: 70px 0px 25px 0px;
+}
+.contact_section p {
+    font-size: 15px;
+    color: #878787;
+}
+.contact_item {
+    margin-top: 65px;
+}
+.c_box_size {
+    width: 180px;
+    height: 90px;
+    font-size: 15px;
+    color: #777777;
+    margin: 0px 85px;
+}
+.contact_item i {
+    color: #0dbf9b;
+    margin-bottom: 10px;
+}
+/* social section */
+.social_icone {
+    background: #0dbf9b;
+    padding: 20px 0px;
+}
+.social_icone ul {
+}
+.social_icone ul li {
+    display: inline-block;
+}
+.social_icone ul li a {
+    color: #fff;
+    font-size: 18px;
+    margin: 0px 13px;
+    display: inline-block;
+}
+
+/* Footer Section */
+.footer_bottom {
+    background: #222222;
+    color: #555555;
+    font-size: 15px;
+    padding: 15px 0px;
+}
